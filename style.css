@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+background-color: #1f2937;
+color: white;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+ul{
+    
+    display: flex;
+    gap: 26px;
+    font-size: 24px;
+    
+    
+}
+
+.hero{
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+.intro-text{
+padding: 4px;
+}
+
+h1{
+   font-size: 48px; 
+   
+}
+
+  .i-frame{
+    width: 437px;
+    height: 207px;
+  } 
+    
+
+
+    
+
+button{
+    background-color:#3882f6;
+    color: white;
+    padding: 4px;
+}
