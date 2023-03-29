@@ -4,6 +4,7 @@ body{
     justify-content: space-between;
     min-height: 100vh;
     margin: 0;
+    background-color: darkred;
 }
 section{
   background-image: url("Dragonstone.jpeg");
@@ -77,6 +78,7 @@ h1{
 main{
   background-color: black;
   color: #ccc;
+  
 
 }
 
@@ -89,11 +91,13 @@ main{
  
 }
 .title{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "UnifrakturCook", serif;
+  font-style: italic;
   color: red;
   text-decoration: underline;
   text-decoration-style:solid;
   text-decoration-color: red;
+  padding-top: 16px;
 }
 
 .info{
@@ -148,16 +152,22 @@ img {
   margin-top: 5px;
   padding-bottom: 36px;
 }
+.bigbox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .blue-box{
     width: 600px;
-    margin: auto;
+    margin-top: 16px;
+    margin-bottom: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: black;
     color: red;
     border-radius: 5px;
-    padding: 24px 48px;
+    padding: 16px 24px;
 }
 .text-box{
     padding:16px 24px;
